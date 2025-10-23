@@ -43,6 +43,22 @@
     <video id="remoteVideo" playsinline autoplay></video>
 
     <div class="box">
+        <h3>TURN Server Configuration</h3>
+        <div>
+            <label for="turnUrl">TURN Server URL:</label>
+            <input type="text" id="turnUrl" value="turn:217.154.105.83:3478" style="width: 300px;">
+        </div>
+        <div>
+            <label for="turnUsername">Username:</label>
+            <input type="text" id="turnUsername" value="test" style="width: 200px;">
+        </div>
+        <div>
+            <label for="turnCredential">Credential:</label>
+            <input type="password" id="turnCredential" value="test" style="width: 200px;">
+        </div>
+    </div>
+
+    <div class="box">
         <button id="startButton">Start</button>
         <button id="callButton">Call</button>
         <button id="hangupButton">Hang Up</button>
